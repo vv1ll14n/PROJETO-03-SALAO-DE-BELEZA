@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+}
+body::-webkit-scrollbar {
+    width: 14px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background:white;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: pink;
+}
+header{
+    width:99vw ;
+    height:15vh ;
+    background-color:pink ;
+    display: flex;
+    justify-content: center;
+}
+header img{
+    width: 100px;
+    height: 130px;
+}
+nav{
+    height:10vh ;
+    width:99vw ;
+    position: sticky;
+    top: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+li{
+    font-size: 1.2em;
+    padding-top: 1.5%;
+    padding-left: 15%;
+}
+li a{
+   text-decoration: none;
+   color: black;
+}
+li a:hover{
+    color: pink;
+}
+/*carroseul*/
+
+.carousel-inner {
+    width: 99vw;
+    height: 75vh;
+}
+/*secao 2 produtos*/
+.container-produtos{
+    margin: 10% 1% 5% 1%;
+    width: 97vw;
+    height: 180vh;
+    display: flex;
+}
+.col{
+    width: 33vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+}
+.fundo-rosa{
+    border: 1px solid pink;
+    border-radius: 15px;
+    background-color: pink;
+    padding: 10px;
+}
+.produto{
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 30vw;
+    height: 75vh;
+    background-color: white;
+}
