@@ -1,6 +1,9 @@
 *{
     margin: 0%;
 }
+body{
+    height: 3000px;
+}
 body::-webkit-scrollbar {
     width: 14px;
     /* width of the entire scrollbar */
@@ -46,7 +49,7 @@ li a{
    color: black;
 }
 li a:hover{
-    color: pink;
+    color: rgba(255, 192, 203, 0.616);
 }
 /*carroseul*/
 
@@ -56,10 +59,12 @@ li a:hover{
 }
 /*secao 2 produtos*/
 .container-produtos{
-    margin: 10% 1% 5% 1%;
+    margin: 8% 1% 1% 1%;
     width: 97vw;
-    height: 180vh;
+    height: 95vh;
     display: flex;
+    position: relative;
+    z-index: +5;
 }
 .col{
     width: 33vw;
@@ -71,8 +76,9 @@ li a:hover{
 .fundo-rosa{
     border: 1px solid pink;
     border-radius: 15px;
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.767);
     padding: 10px;
+    box-shadow: 5px 5px 5px 5px pink;
 }
 .produto{
     border: 1px solid white;
@@ -80,4 +86,54 @@ li a:hover{
     width: 30vw;
     height: 75vh;
     background-color: white;
+}
+/*secao mvv*/
+.contianer-texto{
+    background-color: white;
+    width: 99vw;
+    height: 120vh;
+    padding: 10px;
+    position: relative;
+    z-index: +5;
+    margin-bottom: 10%;
+}
+.texto h3{
+    color: pink;
+    font-size: 4em;
+}
+.texto p{
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 1.8em;
+}
+/*secao 4 formulario*/
+.case-formulario{
+    margin-top: 10%;
+    background-color: white;
+    width: 99vw;
+    height: 95vh;
+}
+.colform{
+    width: 48vw;
+}
+.colform img{
+    padding: 10px;
+    width: 47vw;
+    height: 80vh;
+}
+label{
+    color: rgb(243, 129, 148);
+    font-size: 1.5em;
+}
+input{
+    width: 45vw;
+}
+textarea{
+    border-radius: 7px;
+}
+/*feoter*/
+footer{
+    width: 99vw;
+    height: 20vh;
+    background-color: pink;
 }
