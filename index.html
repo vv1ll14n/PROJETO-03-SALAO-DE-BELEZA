@@ -18,10 +18,10 @@
     <nav>
         <ul>
 
-            <li><a href="">Contratar</a></li>
+            <li><a href="#produtos">Contratar</a></li>
             <li><a href="">Quem somos</a></li>
-            <li><a href="">MVV</a></li>
-            <li><a href="">Mensagem</a></li>
+            <li><a href="#mvv">MVV</a></li>
+            <li><a href="#mensagem">Mensagem</a></li>
         </ul>
     </nav>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -61,25 +61,66 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <!--secão 2 produtos-->
-    <div class="container-produtos">
+    <!--secao 2 quem somos-->
+    <div class="container-quemsomos ">
+        <div class="textoquemsomos col-quemsomos">
+
+
+
+
+
+
+        </div>
+        <div class="imgquemsomos col-quemsomos">
+            <img src="/img/quem-somos1.jpg" alt="">
+
+        </div>
+    </div>
+    <!--secão 3 produtos-->
+    <div class="container-produtos" id="produtos">
         <div class="col fundo-rosa">
             <div class="produto">
+                <div class="card" style="width: 18rem;">
+                    <img src="/img/servico-cabelo.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lavagem de cabelo</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Contratar</a>
+                    </div>
+                </div>
             </div>
             <div class="col">
                 <div class="produto">
-
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/servico-unha.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Unhas</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Contratar</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col">
                     <div class="produto">
-
+                        <div class="card" style="width: 18rem;">
+                            <img src="/img/servico-pele.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pele</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Contratar</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--secao 3 missao visão valores-->
-    <div class="contianer-texto">
+
+    <!--secao 4 missao visão valores-->
+    <div class="contianer-texto" id="mvv">
         <div class="texto">
             <h3>Missão</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos id optio quasi pariatur saepe
@@ -96,8 +137,9 @@
         </div>
     </div>
     <!--secao4 formulario-->
-    <div class="col case-formlario ">
-        <div class="colform formulario">
+    <div class="col">
+        <div class="formulario">
+            <p>Nos mande uma mensagem</p>
             <label for="cnome">Nome</label><br>
             <input type="text" id="cnome"><br>
             <label for="cassuno">Assunto</label><br>
@@ -105,14 +147,26 @@
             <label for="cemail">Email</label><br>
             <input type="email" id="cemail" placeholder="exemplo@gmail.com">
             <label for="cmsg">Mensagem</label><br>
-            <textarea name="cmsg" id="cmsg" cols="80" rows="10"></textarea>
+            <textarea name="cmsg" id="cmsg" cols="80" rows="8"></textarea>
         </div>
-        <div class="colform imagem">
+        <div class="colform">
             <img src="img/formulario-foto.jpg" alt="fotoformlulario">
         </div>
     </div>
-    <footer>
-
+    <footer id="mensagem">
+        <p>Salão da beleza ©️copyright 2022</p>
+        <div class="footer-texto">
+            <p>Telefone: 11 9565-5151</p>
+            <p>Email: salaodabeleza@outlook.com.br</p>
+        </div>
+        <div>
+            <ul>
+                <li><img src="/img/logo-instagram.svg"></li>
+                <li><img src="/img/logo-whatsapp.svg"></li>
+                <li><img src="/img/logo-twitter.svg"></li>
+                <li><img src="/img/logo-facebook.svg"></li>
+            </ul>
+        </div>
     </footer>
 
 

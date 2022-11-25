@@ -19,12 +19,13 @@ body::-webkit-scrollbar-thumb {
 }
 header{
     width:99vw ;
-    height:15vh ;
+    height:22vh ;
     background-color:pink ;
     display: flex;
     justify-content: center;
 }
 header img{
+    margin-top: 8%;
     width: 100px;
     height: 130px;
 }
@@ -57,7 +58,40 @@ li a:hover{
     width: 99vw;
     height: 75vh;
 }
-/*secao 2 produtos*/
+/*secao 2 quem somos*/
+.container-quemsomos{
+    margin-top: 8%;
+    position: relative;
+    z-index: +5;
+    width: 99vw;
+    height: 90vh;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+.col-quemsomos{
+    width: 49vw;
+    height: 75vh;
+}
+.textoquemsomos{
+    width: 70vw;
+    height: 90vh;
+background-color: black;
+position: relative;
+z-index: +5;
+}
+.imgquemsomos{
+    width: 30vw;
+    height: 90vh;
+}
+.imgquemsomos img{
+    position: relative;
+    z-index: +1;
+    width: 406px;
+    height: 595px;
+}
+
+/*secao 3 produtos*/
 .container-produtos{
     margin: 8% 1% 1% 1%;
     width: 97vw;
@@ -65,6 +99,7 @@ li a:hover{
     display: flex;
     position: relative;
     z-index: +5;
+    margin-bottom: 8%;
 }
 .col{
     width: 33vw;
@@ -87,6 +122,27 @@ li a:hover{
     height: 75vh;
     background-color: white;
 }
+.btn-primary{
+    background-color:white;
+    border: 1px solid pink;
+    color: black;
+}
+.btn-primary:hover{
+   color: white;
+   background-color: pink;
+   border: 1px solid pink;
+}
+.card{
+    padding: 20px;
+    border: none;
+}
+.card-img-top{
+    border:3px solid pink;
+    width: 250px;
+    height: 150px;
+    margin-left: 25%;
+    margin-top: 20%;
+}
 /*secao mvv*/
 .contianer-texto{
     background-color: white;
@@ -108,15 +164,24 @@ li a:hover{
 }
 /*secao 4 formulario*/
 .case-formulario{
-    margin-top: 10%;
-    background-color: white;
+    margin-top: 5%;
     width: 99vw;
     height: 95vh;
 }
 .colform{
-    width: 48vw;
+    width: 50vw;
+    position: relative;
+    z-index: +5;
+}
+.formulario{
+    background-color: white;
+    position: relative;
+    z-index: +5;
+    margin-bottom: 10%;
 }
 .colform img{
+    position: relative;
+    z-index: +5;
     padding: 10px;
     width: 47vw;
     height: 80vh;
@@ -131,9 +196,39 @@ input{
 textarea{
     border-radius: 7px;
 }
-/*feoter*/
+.formulario p{
+    font-size: 2.5em;
+    color: pink;
+}
+/*footer*/
 footer{
     width: 99vw;
-    height: 20vh;
+    height: 22vh;
     background-color: pink;
+    display: flex;
+    flex-direction: column;
+}
+footer p{
+ text-align: center;
+}
+.footer-texto{
+    display: inline-block;
+    margin-left: 80%;
+    line-height: 0%;
+}
+footer ul{
+    width: 15vw;
+    height: 5vh;
+
+}
+footer li{
+    padding-left: 15px;
+}
+footer li:hover{
+   /* visibility: hidden;*/
+    cursor:pointer;
+}
+footer ul li img{
+    width: 30px;
+    height: 30px;
 }
