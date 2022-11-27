@@ -1,90 +1,120 @@
-*{
+* {
     margin: 0%;
 }
-body{
-    height: 3000px;
+
+body {
+    height: 3800px;
 }
+
 body::-webkit-scrollbar {
     width: 14px;
     /* width of the entire scrollbar */
 }
 
 body::-webkit-scrollbar-track {
-    background:white;
+    background: white;
     /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
     background-color: pink;
 }
-header{
-    width:99vw ;
-    height:22vh ;
-    background-color:pink ;
+
+header {
+    width: 99vw;
+    height: 22vh;
+    background-color: pink;
     display: flex;
     justify-content: center;
 }
-header img{
+
+header img {
     margin-top: 8%;
     width: 100px;
     height: 130px;
 }
-nav{
-    height:10vh ;
-    width:99vw ;
+
+nav {
+    height: 10vh;
+    width: 99vw;
     position: sticky;
     top: 10px;
 }
-ul{
+
+ul {
     display: flex;
     flex-direction: row;
     list-style: none;
 }
-li{
+
+li {
     font-size: 1.2em;
     padding-top: 1.5%;
     padding-left: 15%;
 }
-li a{
-   text-decoration: none;
-   color: black;
+
+li a {
+    text-decoration: none;
+    color: black;
 }
-li a:hover{
+
+li a:hover {
     color: rgba(255, 192, 203, 0.616);
 }
+
 /*carroseul*/
 
 .carousel-inner {
     width: 99vw;
     height: 75vh;
 }
+
 /*secao 2 quem somos*/
-.container-quemsomos{
+.container-quemsomos {
     margin-top: 8%;
     position: relative;
     z-index: +5;
     width: 99vw;
     height: 90vh;
-    background-color: pink;
+
+
     display: flex;
     justify-content: space-between;
 }
-.col-quemsomos{
+
+.col-quemsomos {
     width: 49vw;
     height: 75vh;
 }
-.textoquemsomos{
-    width: 70vw;
+
+.textoquemsomos {
+    width: 65vw;
     height: 90vh;
-background-color: black;
-position: relative;
-z-index: +5;
+    background-color: pink;
+    position: relative;
+    z-index: +5;
 }
-.imgquemsomos{
+
+.textoquemsomos h1 {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.textoquemsomos p {
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: justify;
+}
+
+.imgquemsomos {
     width: 30vw;
     height: 90vh;
 }
-.imgquemsomos img{
+
+.imgquemsomos img {
     position: relative;
     z-index: +1;
     width: 406px;
@@ -92,7 +122,7 @@ z-index: +5;
 }
 
 /*secao 3 produtos*/
-.container-produtos{
+.container-produtos {
     margin: 8% 1% 1% 1%;
     width: 97vw;
     height: 95vh;
@@ -101,50 +131,58 @@ z-index: +5;
     z-index: +5;
     margin-bottom: 8%;
 }
-.col{
+
+.col {
     width: 33vw;
     height: 80vh;
     display: flex;
     justify-content: space-between;
     padding-left: 4%;
 }
-.fundo-rosa{
+
+.fundo-rosa {
     border: 1px solid pink;
     border-radius: 15px;
     background-color: rgba(255, 192, 203, 0.767);
     padding: 10px;
     box-shadow: 5px 5px 5px 5px pink;
 }
-.produto{
+
+.produto {
     border: 1px solid white;
     border-radius: 25px;
     width: 30vw;
     height: 75vh;
     background-color: white;
 }
-.btn-primary{
-    background-color:white;
+
+.btn-primary {
+    background-color: white;
     border: 1px solid pink;
     color: black;
 }
-.btn-primary:hover{
-   color: white;
-   background-color: pink;
-   border: 1px solid pink;
+
+.btn-primary:hover {
+    color: white;
+    background-color: pink;
+    border: 1px solid pink;
 }
-.card{
+
+.card {
     padding: 20px;
     border: none;
 }
-.card-img-top{
-    border:3px solid pink;
+
+.card-img-top {
+    border: 3px solid pink;
     width: 250px;
     height: 150px;
     margin-left: 25%;
     margin-top: 20%;
 }
+
 /*secao mvv*/
-.contianer-texto{
+.contianer-texto {
     background-color: white;
     width: 99vw;
     height: 120vh;
@@ -153,82 +191,104 @@ z-index: +5;
     z-index: +5;
     margin-bottom: 10%;
 }
-.texto h3{
+
+.texto h3 {
     color: pink;
     font-size: 4em;
 }
-.texto p{
+
+.texto p {
     padding-top: 10px;
     text-align: justify;
     font-size: 1.8em;
 }
+
 /*secao 4 formulario*/
-.case-formulario{
-    margin-top: 5%;
+.case-formulario {
     width: 99vw;
     height: 95vh;
 }
-.colform{
+
+.colform {
     width: 50vw;
     position: relative;
     z-index: +5;
 }
-.formulario{
+
+.formulario {
     background-color: white;
     position: relative;
     z-index: +5;
-    margin-bottom: 10%;
 }
-.colform img{
+
+.colform img {
     position: relative;
     z-index: +5;
     padding: 10px;
     width: 47vw;
     height: 80vh;
+    border-radius: 15px;
 }
-label{
+
+label {
     color: rgb(243, 129, 148);
     font-size: 1.5em;
 }
-input{
+
+input {
     width: 45vw;
 }
-textarea{
+
+textarea {
     border-radius: 7px;
 }
-.formulario p{
+
+.formulario p {
     font-size: 2.5em;
     color: pink;
 }
+
 /*footer*/
-footer{
+footer {
+    margin-top: 10%;
     width: 99vw;
     height: 22vh;
     background-color: pink;
     display: flex;
     flex-direction: column;
 }
-footer p{
- text-align: center;
+
+footer p {
+    text-align: center;
 }
-.footer-texto{
+
+.footer-texto {
     display: inline-block;
     margin-left: 80%;
     line-height: 0%;
 }
-footer ul{
+
+footer ul {
     width: 15vw;
     height: 5vh;
 
 }
-footer li{
+
+footer li {
     padding-left: 15px;
 }
-footer li:hover{
-   /* visibility: hidden;*/
-    cursor:pointer;
+
+footer li:hover {
+    /* visibility: hidden;*/
+    cursor: pointer;
 }
-footer ul li img{
+
+footer ul li img {
     width: 30px;
     height: 30px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
 }
